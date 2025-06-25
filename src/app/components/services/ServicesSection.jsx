@@ -5,10 +5,9 @@ import {
   FaTools,
   FaMicrochip,
   FaWrench,
-  FaCircuitBoard,
+  FaCogs,
   FaSearch,
   FaRobot,
-  FaCogs,
   FaSatelliteDish,
   FaHospital,
 } from 'react-icons/fa';
@@ -37,7 +36,7 @@ export default function ServicesSection() {
       title: 'PCB Design & Assembly',
       description:
         'Delivering high-speed, multi-layer PCBs for sensitive applications with comprehensive DFM/DFT reviews for prototypes and production.',
-      icon: <FaCircuitBoard className="text-4xl text-blue-600" />,
+      icon: <FaCogs className="text-4xl text-blue-600" />,
     },
     {
       title: 'Reverse Engineering Services',
@@ -75,7 +74,7 @@ export default function ServicesSection() {
     <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-[1440px] mx-auto w-full px-4">
         <h2 className="mb-12 text-center text-3xl font-bold text-gray-800 md:text-4xl">
-          Comprehensive Services
+          Our Comprehensive Services
         </h2>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
