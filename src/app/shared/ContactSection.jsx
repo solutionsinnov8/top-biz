@@ -1,21 +1,46 @@
 "use client";
-import { Form, Input, Button, message } from 'antd';
-import { FaUser, FaEnvelope, FaPhone, FaCommentDots } from 'react-icons/fa';
+import { Form, Input, Button } from 'antd';
+import { FaUser, FaEnvelope, FaPhone, FaCommentDots, FaPhoneAlt } from 'react-icons/fa';
 import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactSection() {
     const [form] = Form.useForm();
     const [loading, setLoading] = useState(false);
 
-    const onFinish = (values) => {
+    const onFinish = async (values) => {
         setLoading(true);
-        // Simulate form submission
-        setTimeout(() => {
-            console.log('Form values:', values);
-            message.success('Your message has been sent successfully!');
-            form.resetFields();
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(values),
+            });
+
+            if (response.ok) {
+                toast.success('Your message sent successfully!', {
+                    position: 'top-right',
+                    autoClose: 3000,
+                });
+                form.resetFields();
+            } else {
+                const errorData = await response.json();
+                toast.error(errorData.message || 'Failed to send your message. Please try again.', {
+                    position: 'top-right',
+                    autoClose: 3000,
+                });
+            }
+        } catch (error) {
+            toast.error('An error occurred. Please try again later.', {
+                position: 'top-right',
+                autoClose: 3000,
+            });
+        } finally {
             setLoading(false);
-        }, 1000);
+        }
     };
 
     return (
@@ -25,7 +50,6 @@ export default function ContactSection() {
                     Get in Touch
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-
                     <div className="text-center md:text-left">
                         <h3 className="text-2xl font-semibold text-gray-800 mb-6">
                             Connect with Top Biz LLP
@@ -35,7 +59,7 @@ export default function ContactSection() {
                         </p>
                         <div className="flex flex-col gap-4">
                             <div className="flex items-center gap-3">
-                                <FaPhone className="text-blue-600 text-xl" />
+                                <FaPhoneAlt className="text-blue-600 text-xl" />
                                 <span className="text-gray-700">+92 51 5451101</span>
                             </div>
                             <div className="flex items-center gap-3">
@@ -81,7 +105,7 @@ export default function ContactSection() {
                                 rules={[{ required: true, message: 'Please enter your phone number' }]}
                             >
                                 <Input
-                                    prefix={<FaPhone className="text-gray-500" />}
+                                    prefix={<FaPhoneAlt className="text-gray-500" />}
                                     placeholder="Your Phone Number"
                                     size="large"
                                     className="rounded-md"
@@ -92,7 +116,6 @@ export default function ContactSection() {
                                 rules={[{ required: true, message: 'Please enter your message' }]}
                             >
                                 <Input.TextArea
-                                    prefix={<FaCommentDots className="text-gray-500" />}
                                     placeholder="Your Message"
                                     rows={4}
                                     size="large"
@@ -114,6 +137,7 @@ export default function ContactSection() {
                     </div>
                 </div>
             </div>
+            <ToastContainer />
         </section>
     );
 }
