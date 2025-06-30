@@ -4,8 +4,15 @@ import { Button } from 'antd';
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-gradient-to-r from-blue-600 to-blue-800 overflow-hidden min-h-[calc(100vh-75px)] flex flex-col justify-center 2xl:min-h-auto 2xl:py-[100px]">
-      <div className="absolute inset-0 bg-[url('/placeholder-tech-bg.jpg')] bg-cover bg-center opacity-20"></div>
+    <section className="relative min-h-[calc(100vh-75px)] flex flex-col justify-center 2xl:min-h-auto 2xl:py-[100px]">
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: "url('/images/data/img2.jpg')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black opacity-65"></div>
+      </div>
       <div className="relative max-w-[1440px] w-full mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
           Innovate with TOP BIZ LLP

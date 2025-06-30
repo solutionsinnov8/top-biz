@@ -33,7 +33,7 @@ export default function Navbar() {
             <div className="max-w-[1440px] w-full mx-auto px-4 flex items-center justify-between ">
                 <div className="logo">
                     <Link href="/" className="text-lg md:text-2xl font-bold text-blue-600">
-                        TOP BIZ LLP
+                       <img src="/images/logo.png" alt="" className='w-[120px]' />
                     </Link>
                 </div>
                 {!isMobile && (
