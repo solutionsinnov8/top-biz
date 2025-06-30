@@ -10,7 +10,7 @@ const page = () => {
     <div className='pt-[65px]'>
       <HeroSection />
       <AboutSection />
-      <PartnersSection />
+      {/* <PartnersSection /> */}
       <ServicesSection />
       <ContactSection />
     </div>
