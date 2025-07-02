@@ -20,7 +20,7 @@ export default function MissionSection() {
                  Our Mission
               </h2>
               <p className="text-base leading-relaxed text-gray-600 md:text-lg">
-                Our mission is to be among the top suppliers, importers, exporters, and government and defense contractors in Pakistan. We aim to build long-lasting relationships with our clients by providing dependable, efficient, cost-effective, and innovative solutions.
+                Our mission is to be among the top suppliers, importers, exporters, and government in Pakistan. We aim to build long-lasting relationships with our clients by providing dependable, efficient, cost-effective, and innovative solutions.
               </p>
             </div>
             <div className="md:w-1/2">

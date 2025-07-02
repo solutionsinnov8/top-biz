@@ -55,7 +55,7 @@ export default function ContactSection() {
                             Connect with Top Biz LLP
                         </h3>
                         <p className="text-gray-600 text-base md:text-lg mb-8 leading-relaxed">
-                            We’re here to help you with your General Order Supplies, Import-Export solutions, and Government and Defense contracting needs. Reach out to us today to discuss how we can support your business with tailored, high-quality solutions.
+                            We’re here to help you with your General Order Supplies, Import-Export solutions, and Government needs. Reach out to us today to discuss how we can support your business with tailored, high-quality solutions.
                         </p>
                         <div className="flex flex-col gap-4">
                             <div className="flex items-center gap-3">

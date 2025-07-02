@@ -18,7 +18,7 @@ export default function HeroSection() {
           Innovate with TOP BIZ LLP
         </h1>
         <p className="text-base md:text-lg text-white max-w-3xl mx-auto mb-10 leading-relaxed opacity-90">
-          At Top Biz LLP, our vision is simple: to drive progress and innovation through the delivery of advanced technology solutions. From our partnerships with government and defense sectors to sourcing cutting-edge machinery and robotics, we’re dedicated to supporting Pakistan's growth in technology.
+          At Top Biz LLP, our vision is simple: to drive progress and innovation through the delivery of advanced technology solutions. From our partnerships with government to sourcing cutting-edge machinery and robotics, we’re dedicated to supporting Pakistan's growth in technology.
           <br /><br />
           We believe in fostering strong relationships with our clients and partners, founded on trust, quality, and precision. As we continue to evolve, our commitment remains steadfast – delivering value, enhancing capabilities, and empowering our clients to succeed in an increasingly tech-driven world.
           <br /><br />
