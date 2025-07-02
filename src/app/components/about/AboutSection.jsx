@@ -12,10 +12,10 @@ export default function AboutSection() {
         <Card className="shadow-lg border-0 rounded-lg">
           <div className="text-gray-600 text-base md:text-lg leading-relaxed">
             <p className="mb-4">
-              Welcome to Top Biz LLP, your trusted partner for comprehensive General Order Supplies, Import-Export solutions, and Government and Defense contracting. We are a registered Sole Proprietorship company based in Rawalpindi, Punjab, serving a broad spectrum of industries with reliability and precision.
+              Welcome to Top Biz LLP, your trusted partner for comprehensive General Order Supplies, Import-Export solutions and Government. We are a registered Limited Liability Partnership concern company based in Rawalpindi, Punjab, serving a broad spectrum of industries with reliability and precision.
             </p>
             <p className="mb-4">
-              We take pride in being an established General Order Supplier, Stockiest, Agent, and Supplier. We collaborate closely with respected government and defense entities, providing a wide range of essential supplies—from everyday office necessities to sophisticated machinery, specialized spares, optical transmission equipment, telecommunication equipment, electronics, ICT equipment, robotics, and advanced technology.
+              We take pride in being an established General Order Supplier, Stockiest, Agent, and Supplier. We collaborate closely with respected government, providing a wide range of essential supplies—from everyday office necessities to sophisticated machinery, specialized spares, optical transmission equipment, telecommunication equipment, electronics, ICT equipment, robotics, and advanced technology.
             </p>
             <p className="mb-4">
               Top Biz is also involved in Electronics, Electrical, Mechanical, and R&D projects with the help of our JV Partner companies.

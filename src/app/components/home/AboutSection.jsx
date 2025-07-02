@@ -13,7 +13,7 @@ export default function AboutSection() {
               About Top Biz LLP
             </h2>
             <p className="text-base md:text-lg text-gray-600 mb-6 leading-relaxed">
-              Welcome to Top Biz LLP, your trusted partner for comprehensive General Order Supplies, Import-Export solutions, and Government and Defense contracting. We are a registered Sole Proprietorship company based in Rawalpindi, Punjab, serving a broad spectrum of industries with reliability and precision.
+              Welcome to Top Biz LLP, your trusted partner for comprehensive General Order Supplies, Import-Export solutions and Government. We are a registered Limited Liability Partnership concern. company based in Rawalpindi, Punjab, serving a broad spectrum of industries with reliability and precision.
             </p>
             <Link href="/about">
               <Button
