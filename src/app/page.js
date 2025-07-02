@@ -4,6 +4,7 @@ import AboutSection from './components/home/AboutSection'
 import PartnersSection from './components/home/PartnersSection'
 import ServicesSection from './components/home/ServicesSection'
 import ContactSection from './shared/ContactSection'
+import HomeGallery from './components/home/HomeGallery'
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       <AboutSection />
       {/* <PartnersSection /> */}
       <ServicesSection />
+      <HomeGallery />
       <ContactSection />
     </div>
   )

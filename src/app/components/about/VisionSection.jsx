@@ -23,7 +23,7 @@ export default function VisionSection() {
               />
             </div>
             <div className="md:w-1/2">
-              <h2 className="mb-4 flex items-center gap-3 text-3xl font-bold text-gray-800 md:text-4xl">
+              <h2 className="mb-4 flex items-center gap-3 text-3xl !font-bold text-gray-800 md:text-4xl">
                  Our Vision
               </h2>
               <p className="text-base leading-relaxed text-gray-600 md:text-lg">

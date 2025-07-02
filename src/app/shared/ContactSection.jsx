@@ -46,7 +46,7 @@ export default function ContactSection() {
     return (
         <section className="py-16 bg-gradient-to-r from-blue-50 to-gray-100">
             <div className="max-w-[1440px] w-full mx-auto px-4">
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12">
+                <h2 className="text-3xl md:text-4xl !font-bold text-gray-800 text-center mb-12">
                     Get in Touch
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">

@@ -6,7 +6,7 @@ export default function AboutSection() {
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-[1440px] w-full mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12 flex items-center justify-center gap-3">
+        <h2 className="text-3xl md:text-4xl !font-bold text-gray-800 text-center mb-12 flex items-center justify-center gap-3">
           <FaBuilding className="text-blue-600 text-3xl" /> About Top Biz LLP
         </h2>
         <Card className="shadow-lg border-0 rounded-lg">

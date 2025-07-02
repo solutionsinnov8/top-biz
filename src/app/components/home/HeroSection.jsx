@@ -14,7 +14,7 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-black opacity-65"></div>
       </div>
       <div className="relative max-w-[1440px] w-full mx-auto px-4 text-center">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
+        <h1 className="text-4xl md:text-6xl !font-extrabold text-white mb-6 tracking-tight">
           Innovate with TOP BIZ LLP
         </h1>
         <p className="text-base md:text-lg text-white max-w-3xl mx-auto mb-10 leading-relaxed opacity-90">

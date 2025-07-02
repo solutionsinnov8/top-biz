@@ -73,7 +73,7 @@ export default function ServicesSection() {
   return (
     <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-[1440px] mx-auto w-full px-4">
-        <h2 className="mb-12 text-center text-3xl font-bold text-gray-800 md:text-4xl">
+        <h2 className="mb-12 text-center text-3xl !font-bold text-gray-800 md:text-4xl">
           Our Comprehensive Services
         </h2>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

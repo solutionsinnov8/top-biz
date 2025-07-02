@@ -49,7 +49,7 @@ export default function ValuesSection() {
         <Card className="border-0 shadow-lg rounded-lg bg-white/95 backdrop-blur-sm">
           <div className="flex flex-col gap-8 md:flex-row">
             <div className="md:w-1/2">
-              <h2 className="mb-4 text-3xl font-bold text-gray-800 md:text-4xl">Our Values</h2>
+              <h2 className="mb-4 text-3xl !font-bold text-gray-800 md:text-4xl">Our Values</h2>
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 {values.map((value, index) => (
                   <div key={index} className="flex items-start gap-3 ">

@@ -9,7 +9,7 @@ export default function AboutSection() {
       <div className="max-w-[1440px] w-full mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+            <h2 className="text-3xl md:text-4xl !font-bold text-gray-800 mb-6">
               About Top Biz LLP
             </h2>
             <p className="text-base md:text-lg text-gray-600 mb-6 leading-relaxed">

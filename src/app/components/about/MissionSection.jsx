@@ -16,7 +16,7 @@ export default function MissionSection() {
         <Card className="border-0 shadow-lg rounded-lg bg-white/95 backdrop-blur-sm">
           <div className="flex flex-col gap-8 md:flex-row items-center">
             <div className="md:w-1/2">
-              <h2 className="mb-4 flex items-center gap-3 text-3xl font-bold text-gray-800 md:text-4xl">
+              <h2 className="mb-4 flex items-center gap-3 text-3xl !font-bold text-gray-800 md:text-4xl">
                  Our Mission
               </h2>
               <p className="text-base leading-relaxed text-gray-600 md:text-lg">
